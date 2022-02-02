@@ -117,7 +117,7 @@ module.exports = function (grunt) {
                     '!<%= dirs.sass %>/**',
                     '!../**.zip',
                     '!../info.json',
-                    '<%= dirs.js %>/vei.min.js'
+                    '<%= dirs.js %>/video-e-isso.min.js'
                 ],
                 dest: '../dist/<%= pkg.name %>.zip'
             }
