@@ -4,7 +4,7 @@
  * Plugin Name: Vídeo é Isso
  * Plugin URI: https://agencialaf.com
  * Description: Descrição do Vídeo é Isso.
- * Version: 0.0.2
+ * Version: 0.0.3
  * Author: Ingo Stramm
  * Text Domain: vei
  * License: GPLv2
