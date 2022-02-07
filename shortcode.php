@@ -12,7 +12,7 @@ function vei_calc_shortcode($atts)
     // $output .= '
     //     <p><a href="#" class="vei-calc-btn" data-id="vei-calc-btn">' . __('Calcular tempo') . '</a></p>';
     $output .= '
-        <h4 class="vei-calc-title">' . __('Tempo estimado:', 'vei') . ' <span class="vei-cal-tempo" data-id="vei-calc-tempo">0 minutos</span></h4>
+        <h4 class="vei-calc-title">' . __('Tempo estimado:', 'vei') . ' <span class="vei-cal-tempo" data-id="vei-calc-tempo">0 segundos</span></h4>
     </div>
     <!-- /.vei-calc -->';
 
