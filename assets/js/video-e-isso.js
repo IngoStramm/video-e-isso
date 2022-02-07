@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             words = words.filter(function (a) { return a; });
             var total_words = words.length;
             vei_qtd.innerHTML = total_words;
-            var tempo = Math.ceil(parseInt(total_words) / 3);
+            var tempo = Math.floor(parseInt(total_words) / 3);
             vei_tempo.innerHTML = tempo === 1 ? tempo + ' segundo' : tempo + ' segundos';
         };
     }
