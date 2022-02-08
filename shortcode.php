@@ -7,8 +7,10 @@ function vei_calc_shortcode($atts)
     $output = '';
     $output .= '
     <div class="vei-calc" data-id="vei-calc">
-        <textarea name="vei-calc-text" id="vei-calc-text" cols="50" rows="4" class="vei-calc-text" data-id="vei-calc-text"></textarea>
-        <h4 class="vei-calc-title">' . __('Quantidade de palavras:', 'vei') . ' <span class="vei-calc-qtd" data-id="vei-calc-qtd">0</span></h4>';
+        <textarea name="vei-calc-text" id="vei-calc-text" cols="50" rows="14" class="vei-calc-text" data-id="vei-calc-text"></textarea>
+        <h4 class="vei-calc-title">' . __('Quantidade de palavras:', 'vei') . ' <span class="vei-calc-qtd" data-id="vei-calc-qtd-palavras">0</span></h4>';
+    $output .= '
+        <h4 class="vei-calc-title">' . __('Quantidade de caracteres:', 'vei') . ' <span class="vei-calc-qtd" data-id="vei-calc-qtd-caracteres">0</span></h4>';
     // $output .= '
     //     <p><a href="#" class="vei-calc-btn" data-id="vei-calc-btn">' . __('Calcular tempo') . '</a></p>';
     $output .= '
