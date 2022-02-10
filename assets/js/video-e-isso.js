@@ -11,11 +11,17 @@ document.addEventListener('DOMContentLoaded', function () {
             text = text.replace(/(\r\n|\n|\r)/gm, ' ');
             var words = text.split(' ');
             words = words.filter(function (a) { return a; });
-            var total_words = words.length;
+            const total_words = words.length;
             vei_qtd_palavras.innerHTML = total_words;
             vei_qtd_caracteres.innerHTML = text.length;
-            var tempo = Math.floor(parseInt(total_words) / 3);
-            vei_tempo.innerHTML = tempo === 1 ? tempo + ' segundo' : tempo + ' segundos';
+            var tempo = Math.ceil(parseInt(total_words) / 2.15);
+            var msg = tempo === 1 ? tempo + ' segundo' : tempo + ' segundos';
+            if (tempo > 60) {
+                const minutos = Math.floor(tempo / 60);
+                const segundos = tempo - minutos * 60;
+                msg = minutos + 'min ' + segundos + 'sec';
+            }
+            vei_tempo.innerHTML = msg;
         };
     }
 });
