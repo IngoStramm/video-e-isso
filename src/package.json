@@ -1,7 +1,7 @@
 {
     "name": "vide-e-isso",
     "description": "Descrição do Vídeo é Isso.",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "title": "Vídeo é Isso",
     "homepage": "https://agencialaf.com",
     "main": "Gruntfile.js",
